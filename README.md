@@ -58,4 +58,11 @@ You can download and install pangolin using the [vcpkg](https://github.com/Micro
 
 The pangolin port in vcpkg is kept up to date by Microsoft team members and community contributors. If the version is out of date, please [create an issue or pull request](https://github.com/Microsoft/vcpkg) on the vcpkg repository.
 
+#### Common Problem: Issue with installing pkgconf:x64-linux while running the follwing command
+```sh
+./vcpkg install pangolin
+```
+This is probably due to the python version, Please read the section about Python version in the [Pangolin](https://github.com/stevenlovegrove/Pangolin) README.
+
+
 
