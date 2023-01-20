@@ -39,4 +39,23 @@ The C preprocessor is a program that processes source code before it is passed t
 The C++ compiler, on the other hand, is responsible for converting the preprocessed C++ code into machine code that can be executed by the computer. The compiler checks the syntax of the code, generates assembly code, and then converts the assembly code into machine code.
 
 ### 2. Install Pangolin
+Pangolin is a lightweight C++ library for creating interactive multi-dimensional visualisations. It is often used in computer vision and robotics applications. Try running 
+```sh
+pangolin-config --version
+# If Pangolin is already installed, this prints the version number.
+```
+If not previously installed, you can get [Pangolin](https://github.com/stevenlovegrove/Pangolin) here.
+
+## Installing Pangolin(vcpkg) ##
+
+You can download and install pangolin using the [vcpkg](https://github.com/Microsoft/vcpkg) dependency manager:
+
+    git clone https://github.com/Microsoft/vcpkg.git
+    cd vcpkg
+    ./bootstrap-vcpkg.sh
+    ./vcpkg integrate install
+    ./vcpkg install pangolin
+
+The pangolin port in vcpkg is kept up to date by Microsoft team members and community contributors. If the version is out of date, please [create an issue or pull request](https://github.com/Microsoft/vcpkg) on the vcpkg repository.
+
 
