@@ -64,5 +64,8 @@ The pangolin port in vcpkg is kept up to date by Microsoft team members and comm
 ```
 This is probably due to the python version, Please read the section about Python version in the [Pangolin](https://github.com/stevenlovegrove/Pangolin) README.
 
+#### Installing Pangolin by building from source, will update here if it works
+
+
 
 
